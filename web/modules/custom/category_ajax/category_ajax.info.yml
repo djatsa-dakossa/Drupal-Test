@@ -1,0 +1,7 @@
+name: 'Category Ajax'
+type: module
+description: 'Load taxonomy children via ajax'
+core_version_requirement: ^10 | ^11
+package: Custom
+dependencies:
+  - taxonomy

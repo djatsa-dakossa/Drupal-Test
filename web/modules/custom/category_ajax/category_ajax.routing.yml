@@ -1,0 +1,7 @@
+category_ajax.get_subcategories:
+  path: '/ajax/get-subcategories/{parent_tid}'
+  defaults:
+    _controller: '\Drupal\category_ajax\Controller\CategoryAjaxController::getSubcategories'
+    _format: 'json'
+  requirements:
+    _permission: 'access content'

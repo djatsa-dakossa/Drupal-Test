@@ -1,0 +1,6 @@
+category_ajax:
+  version: 1.x
+  js:
+    js/category_ajax.js: {}
+  dependencies:
+    - core/jquery
